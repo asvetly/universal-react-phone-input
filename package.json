@@ -1,0 +1,36 @@
+{
+  "name": "universal-react-phone-input",
+  "version": "1.0.0",
+  "description": "React component for entering and validating international telephone numbers",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "browser": "build/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/ugg0t/universal-react-phone-input.git",
+  "keywords": [
+    "react component",
+    "phone input",
+    "react input",
+    "rollup",
+    "react",
+    "phone",
+    "input"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "asvetly1337@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugg0t/universal-react-phone-input/issues"
+  },
+  "homepage": "https://github.com/ugg0t/universal-react-phone-input#readme",
+  "devDependencies": {
+    "rollup": "^0.59.2"
+  }
+}
